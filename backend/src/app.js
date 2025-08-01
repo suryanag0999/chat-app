@@ -6,7 +6,12 @@ import { clerkMiddleware, requireAuth } from "@clerk/express";
 import userRouter from "./routes/userRoutes.js";
 
 const app = express();
-app.use(cors());
+app.use(cors({
+  origin:process.env.CLIENT_URL,
+  methods:"GET,HEAD,PUT,PATCH,POST,DELETE",
+  credentials:true,
+  optionsSuccessStatus:204
+}));
 app.use(clerkMiddleware());
 
 app.get("/", (req, res) => {
