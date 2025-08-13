@@ -46,39 +46,14 @@ LiveLink is a responsive, modern messaging platform built with the MERN stack an
 ## 🚀 Getting Started
 
 ### Prerequisites
-Ensure you have:
-- Node.js (v14+)
-- npm
-- MongoDB (local or Atlas)
+Make sure you have installed:
+- **Node.js** (v14 or later)
+- **npm**
+- **MongoDB** (local installation or MongoDB Atlas account)
 
 ### Installation
 
-Feature Deep Dive
-Real-Time Messaging
-
-WebSocket-based instant delivery
-
-Auto-reconnect on network issues
-
-Persistent chat storage
-
-User Management
-
-JWT-secured login/register
-
-Profile editing
-
-Active/idle status tracking
-
-Responsive Design
-
-Mobile-first layouts
-
-Adaptive grid for large screens
-
-Touch-optimized controls
-
-**1. Clone Repository**
+**1. Clone the Repository**
 ```bash
-git clone https://github.com/suryanag0999/chat-app.git
+git clone https://github.com/suryanag9099/chat-app.git
 cd chat-app
