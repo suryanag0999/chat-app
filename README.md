@@ -1,4 +1,4 @@
-Real-Time Chat App
+##  Real-Time Chat App
 
 LiveLink is a responsive, modern messaging platform built with the MERN stack and Socket.IO. It enables instant communication, secure user authentication, and a smooth mobile-first experience.
 
@@ -52,6 +52,31 @@ Ensure you have:
 - MongoDB (local or Atlas)
 
 ### Installation
+
+Feature Deep Dive
+Real-Time Messaging
+
+WebSocket-based instant delivery
+
+Auto-reconnect on network issues
+
+Persistent chat storage
+
+User Management
+
+JWT-secured login/register
+
+Profile editing
+
+Active/idle status tracking
+
+Responsive Design
+
+Mobile-first layouts
+
+Adaptive grid for large screens
+
+Touch-optimized controls
 
 **1. Clone Repository**
 ```bash
